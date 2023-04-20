@@ -1,0 +1,36 @@
+# 1
+input_dir: DeliveryFood2022/
+# 2
+output_dir: DeliveryFood2022/
+
+## XCAssets
+# 1
+xcassets:
+  # 2
+  inputs:
+    - Applications/Assets.xcassets
+    - Applications/Colors.xcassets
+  # 3
+  outputs:
+    # 4
+    templateName: swift5
+    # 5
+    output: Applications/Generated/Asset.swift
+    params:
+        enumName: Asset
+    
+## Fonts
+fonts:
+  inputs:
+    - Common/Fonts/Rubik-Regular.ttf
+    - Common/Fonts/Rubik-Medium.ttf
+    - Common/Fonts/Archive.otf
+    - Common/Fonts/Snowstorm Bold.otf
+    - Common/Fonts/Snowstorm Light.otf
+    - Common/Fonts/Snowstorm.otf
+
+  outputs:
+    templateName: swift5
+    output: Applications/Generated/Fonts.swift
+    params:
+        enumName: Fonts

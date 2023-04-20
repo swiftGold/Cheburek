@@ -1,0 +1,38 @@
+PODS:
+  - GoogleMaps (7.2.0):
+    - GoogleMaps/Maps (= 7.2.0)
+  - GoogleMaps/Base (7.2.0)
+  - GoogleMaps/Maps (7.2.0):
+    - GoogleMaps/Base
+  - Kingfisher (7.4.1)
+  - Realm (10.32.3):
+    - Realm/Headers (= 10.32.3)
+  - Realm/Headers (10.32.3)
+  - RealmSwift (10.32.3):
+    - Realm (= 10.32.3)
+  - SwiftGen (6.6.2)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Kingfisher
+  - RealmSwift
+  - SwiftGen
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  GoogleMaps: 65ce5426e2398bb81433c8076f2ab6419c2c5537
+  Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
+  Realm: fdf6732924dc5e69e30e0db2c11e869f92b53f3d
+  RealmSwift: 7c181da8fa1c2fe613656a77c198d6a3dc3879a1
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+
+PODFILE CHECKSUM: ace487bfca8b8dce9591aefe3898d0367df1183b
+
+COCOAPODS: 1.12.0
